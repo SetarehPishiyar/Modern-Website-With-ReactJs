@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+@import "tailwindcss";
+
+/* =========================
+    Theme (colors, tokens)
+========================= */
+@theme {
+  --color-1: #ac6aff;
+  --color-2: #ffc876;
+  --color-3: #ff776f;
+  --color-4: #7adb78;
+  --color-5: #858dff;
+  --color-6: #ff98e2;
+
+  --stroke-1: #26242c;
+
+  --color-n-1: #ffffff;
+  --color-n-2: #cac6dd;
+  --color-n-3: #ada8c3;
+  --color-n-4: #757185;
+  --color-n-5: #3f3a52;
+  --color-n-6: #252134;
+  --color-n-7: #15131d;
+  --color-n-8: #0e0c15;
+  --color-n-9: #474060;
+  --color-n-10: #43435c;
+  --color-n-11: #1b1b2e;
+  --color-n-12: #2e2a41;
+  --color-n-13: #6c7275;
+
+  --tracking-tagline: 0.15em;
+}
+
+/* =========================
+    Components
+========================= */
+@layer components {
+  .container {
+    max-width: 77.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+  }
+
+  .h2 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
+
+  .h3 {
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  .h4 {
+    font-size: 2rem;
+    line-height: normal;
+  }
+
+  .h5 {
+    font-size: 1.5rem;
+    line-height: normal;
+  }
+
+  .h6 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+
+  .body-1 {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
+  .body-2 {
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+
+  .caption {
+    font-size: 0.875rem;
+  }
+
+  .tagline {
+    font-family: var(--font-grotesk);
+    font-weight: 300;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: var(--tracking-tagline);
+  }
+
+  .quote {
+    font-family: var(--font-code);
+    font-size: 1.125rem;
+    line-height: normal;
+  }
+
+  .button {
+    font-family: var(--font-code);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* =========================
+    Utilities
+========================= */
+@layer utilities {
+  .tap-highlight-color {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-n-8 text-n-1 text-base;
+  }
+}

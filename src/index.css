@@ -14,7 +14,7 @@
   --color-5: #858dff;
   --color-6: #ff98e2;
 
-  --stroke-1: #26242c;
+  --color-stroke-1: #26242c;
 
   --color-n-1: #ffffff;
   --color-n-2: #cac6dd;
@@ -31,6 +31,17 @@
   --color-n-13: #6c7275;
 
   --tracking-tagline: 0.15em;
+}
+
+.bg-conic-gradient {
+  background: conic-gradient(
+    from 225deg,
+    #ffc876,
+    #79fff7,
+    #9f53ff,
+    #ff98e2,
+    #ffc876
+  );
 }
 
 /* =========================

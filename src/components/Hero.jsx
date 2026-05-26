@@ -86,10 +86,10 @@ const Hero = () => {
                 </ScrollParallax>
               </div>
             </div>
-            <Gradient/>
+            <Gradient />
           </div>
 
-          <div className="absolute -top-[55%] left-1/2 w-[235%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[112%] ">
+          <div className="absolute -top-[55%] left-1/2 w-[235%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[100%] ">
             <img
               src={heroBackground}
               alt="hero background"

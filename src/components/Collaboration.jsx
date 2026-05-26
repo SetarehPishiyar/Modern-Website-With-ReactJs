@@ -40,7 +40,7 @@ const Collaboration = () => {
           <div className="relative -rotate-8 left-1/2 flex w-90 aspect-square border border-n-6 rounded-full -translate-x-1/2 scale-75 md:scale-100">
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-25 aspect-square m-auto p-px bg-conic-gradient rounded-full">
-                <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
+                <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full rotate-8">
                   <img
                     src={brainwaveSymbol}
                     alt={"brainwave"}

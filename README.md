@@ -1,16 +1,65 @@
-# React + Vite
+# Modern Website With ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive AI tools landing page built with React.js, featuring clean UI, reusable components, and smooth user experience.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://modern-ai-tool-website.netlify.app/
 
-## React Compiler
+## Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Modern UI inspired landing page for showcasing AI-related tools and services.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive modern design
+- Reusable React components
+- Clean UI/UX layout
+- Smooth navigation and section structure
+- React-based frontend architecture
+- Beginner-friendly project structure
+
+## Tech Stack
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SetarehPishiyar/Modern-Website-With-ReactJs.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Learning Project & Credits
+
+This project was built as a **learning project** by following a tutorial/course from **JavaScript Mastery** and is **not entirely an original zero-to-one product**.
+
+The implementation, practice, and learning process were done by me while following the course material and adapting the project during development.
+
+Special credit to JavaScript Mastery for the tutorial and guidance that inspired this project.
+
+## Repository
+
+GitHub Repo:
+
+https://github.com/SetarehPishiyar/Modern-Website-With-ReactJs
+
+## Author
+
+Setareh Pishiyar
